@@ -1,0 +1,119 @@
+
+@media(max-width: 540px ){
+    main{
+        width: 100%;
+       
+    }
+
+    .header{
+      
+        
+        padding: 5px;
+    }
+
+    .header .omelette-image{
+        
+        margin: 0;
+        padding: 0;
+
+        
+    }
+
+    .header .title{
+        font-size: 32px;
+        width: 100%;
+        padding: 5;
+        text-align: start;
+        
+    }
+
+    .header .paragraph-text{
+        font-size: 14px;
+        padding: 5px;
+        margin: 5px;
+        line-height: 18px;
+    }
+
+    .Nutrition .nutrition-list .nutrition-highlight{
+        padding-left: 30px;
+    }
+
+    
+    
+}
+
+@media(max-width: 360px){
+        
+    .header .title{
+        text-align: start;
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    main {
+        width: 70%; 
+        padding: 5px;
+        
+        
+        
+    }
+
+    .header .title {
+        font-size: 40px; 
+        text-align: start;
+        padding: 15px;
+        width: 400px;
+    }
+
+    .header .omelette-image{
+        
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    .paragraph-text {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 10px;
+    }
+
+    .Nutrition .nutrition-list .nutrition-highlight{
+        padding-left: 30px;
+    }
+}
+
+@media (min-width: 1025px) {
+    main {
+        width: 50%;
+        padding: 30px;
+        
+        margin: 0 auto;
+    }
+
+    .header .title {
+        font-size: 46px;
+        text-align: start;
+    }
+
+
+    .header .omelette-image{
+        
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .paragraph-text {
+        font-size: 18px;
+        line-height: 28px;
+        padding: 15px;
+    }
+}

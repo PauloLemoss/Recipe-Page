@@ -1,0 +1,192 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 54%, 90%);
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+main{
+    background-color:  hsl(0, 0%, 100%);
+    width: 40%;
+    border-radius: 10px;
+    max-width: 800px;
+    border-radius: 20px;
+  
+    
+   
+    
+
+  
+
+}
+
+
+.header{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+.header .omelette-image{
+  
+
+    width: 100%;
+    max-width: 600px;
+    min-width: 250px; 
+    object-fit: cover;
+    padding: 20px; 
+    border-radius: 50px; 
+    margin: 20px 0;
+   
+}
+
+.header .title{
+    display: flex;
+    font-family: "Outfit", sans-serif;
+    justify-content: flex-start;
+    font-weight: 700;
+    font-size: 42px;
+    padding: 20px;
+
+
+}
+
+.paragraph-text{
+   
+    font-size: 17px;
+    font-family: "Outfit", sans-serif;
+    width: 100%;
+    
+    text-align: start;
+    
+   
+
+
+    
+    
+}
+
+.preparation-time{
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    margin: 20px;
+}
+
+.preparation-time .preparation-time-title{
+    color: hsl(332, 51%, 32%);
+    font-size: 20px;
+    font-family: "Outfit", sans-serif;
+}
+
+.preparation-time .preparation-time-list{
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Outfit", sans-serif;
+    
+}
+
+.preparation-time .preparation-time-list .preparation-time-span{
+    color: hsl(30, 10%, 34%);
+    font-size: 18px;
+}
+
+.ingredients, .instructions, .Nutrition{
+    padding: 20px;
+    margin: 20px;
+  
+}
+
+.Nutrition .nutrition-title, .instructions .instructions-title, .ingredients .ingredients-title {
+    font-size: 30px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(14, 45%, 36%);
+}
+
+
+.ingredients .ingredients-list{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);;
+}
+
+hr{
+   
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid hsl(30, 10%, 80%)
+}
+
+
+
+.instructions .instructions-list{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+
+.instructions .instructions-list .instructions-span{
+    color: hsl(24, 5%, 18%);
+}
+
+.instructions .instructions-list .instructions-resume{
+    padding-left: 10px;
+}
+
+
+
+
+.Nutrition .nutrition-paragraph{
+    font-family: "Outfit", sans-serif;
+    padding-top: 10px;
+}
+
+
+.Nutrition .nutrition-list{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Outfit", sans-serif;
+    list-style: none;
+    color: hsl(30, 10%, 34%);
+}
+
+.Nutrition .nutrition-list .nutrition-highlight{
+    display: flex;
+ 
+    justify-content: flex-end;
+    
+    color:   hsl(14, 45%, 36%);
+
+    padding-right: 300px;
+}
+
+.Nutrition .nutrition-list li{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+
+.Nutrition hr {
+    width: 110%; 
+    border: 1px solid hsl(30, 10%, 80%);
+    margin: 10px -5% 10px -5%; 
+}                                                                                
